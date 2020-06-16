@@ -1,7 +1,7 @@
 
 #This is a project where I practiced my skills in 
 
-###1)Redux 
+### 1)Redux 
 Create store, dispatch actions, create reducers etc. with a classic way  - createStore, action creator functions, switch/case action.type statement 
 
 ### 2) Redux toolkit
