@@ -1,15 +1,12 @@
-This is the starting place in conjunction with my **Redux Toolkit** comparison video. Please start here. NOTE: no dependencies related to Redux are installed here! Please follow along in the video and add them with me!
 
-<img src="image.png" alt="app" style="margin-left: 15px;" />
+#This is a project where I practiced my skills in 
 
-## How did I create this project?
+###1)Redux 
+Create store, dispatch actions, create reducers etc. with a classic way  - createStore, action creator functions, switch/case action.type statement 
 
-1) I created a Typescript template create-react-app project by running <br />
-`npx create-react-app rtk --template typescript`
-2) Personal Preference and purely optional, but I installed `prettier` and created the `.eslintrc.json` file to link prettier and ESLint together.
-3) I installed `uuid` and `@types/uuid` to be able to generate unique IDs.
-4) I removed most of the starter code that CRA gives you and created the template that you see above.
-
-## How do I start the app??
-
-Go to the root directly, open up the terminal, and type `npm start`
+### 2) Redux toolkit
+Refactor code to use modern cool shiny things like configureStore, createSlice and more 
+### 3) Practice TypeScript 
+Less errors, more concrete. 
+### 4) Add some fancy css transitions 
+Because it's cool, that's why 

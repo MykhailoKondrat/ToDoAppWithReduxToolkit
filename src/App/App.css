@@ -1,3 +1,8 @@
+.*{
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+
+}
 .App__counter {
   height: 60px;
   display: flex;
@@ -8,7 +13,7 @@
 
 .App__header {
   align-items: center;
-  background: rgb(118, 74, 188);
+  background-image: linear-gradient(225deg, #F991FF 0%, #EC81F5 22%, #F690FF 35%, #DD40EE 45%, #C200D8 100%);
   color: white;
   display: flex;
   flex-direction: column;
@@ -19,6 +24,8 @@
 h1 {
   font-size: 48px;
   font-weight: 700;
+  text-align: center;
+  text-shadow: 0 8px 5px rgba(105,0,117,0.54);
 }
 
 input {
@@ -33,19 +40,28 @@ input {
   margin: 0 16px;
   padding: 0 16px;
   width: 200px;
+  box-sizing: border-box;
 }
 
 input:focus {
   outline: none;
+  border: 2px solid hsla(294, 100%, 80%, 1);
+
 }
 
 button {
   background: rgb(249, 250, 251);
   border-radius: 6px;
-  color: rgb(28, 30, 33);
+  padding: 4px 20px;
+  border: 1px solid #ccc;
+  background: #ccc linear-gradient(180deg, #F8F8F8 1%, #E0DADA 62%, #F7F7F7 100%);
+  box-shadow: 0 7px 12px 0 rgba(76,6,124,0.50);
   cursor: pointer;
-  font-size: 17.28px;
-  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: indigo;
   line-height: 25.92px;
   margin-right: 8px;
   transition: all 0.1s ease-in;
@@ -58,6 +74,7 @@ button:focus {
 button:hover {
   background: white;
   color: rgb(92, 61, 143);
+  box-shadow: 0 0 3px 0 rgba(76,6,124,0.50);
 }
 
 button:active {
@@ -119,4 +136,10 @@ li.active {
 
 .todo-actions {
   margin-top: 16px;
+}
+
+@media (max-width: 760px) {
+  h1{
+    font-size: 32px;
+  }
 }

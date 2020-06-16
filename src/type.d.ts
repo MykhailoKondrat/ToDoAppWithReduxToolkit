@@ -9,3 +9,4 @@ export interface State {
   selectedTodo: string | null;
   counter: number;
 }
+
