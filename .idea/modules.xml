@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/src.iml" filepath="$PROJECT_DIR$/.idea/src.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/rtk.iml" filepath="$PROJECT_DIR$/.idea/rtk.iml" />
+>>>>>>> 6fb78f13e5405be52853201aceba6ee5a49ed167
     </modules>
   </component>
 </project>

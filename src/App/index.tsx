@@ -7,20 +7,13 @@ import React, {
 } from "react";
 
 import { useSelector, useDispatch } from "react-redux";
-// import {
-//   createTodoActionCreator,
-//   editTodoActionCreator,
-//   deleteTodoActionCreator,
-//   toggleTodoActionCreator,
-//   selectTodoActionCreator
-// } from "../redux-org";
 import {
   createTodoActionCreator,
   editTodoActionCreator,
   deleteTodoActionCreator,
   toggleTodoActionCreator,
   selectTodoActionCreator
-} from "../src/redux_toolkit";
+} from "../redux_toolkit";
 import { State } from "../type";
 import "./App.css";
 

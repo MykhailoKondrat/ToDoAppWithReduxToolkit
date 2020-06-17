@@ -1,5 +1,5 @@
 import { configureStore, createSlice, getDefaultMiddleware, PayloadAction } from "@reduxjs/toolkit";
-import { Todo } from "./type";
+import { Todo } from "../type";
 import logger from 'redux-logger';
 import { v1 as uuid } from "uuid";
 import { strict } from "assert";
